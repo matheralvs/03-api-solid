@@ -4,8 +4,12 @@
     "prettier/prettier": [
       "error",
       {
-        "endOfLine": "auto"
+        "endOfLine": "auto",
+        "singleQuote": true,
+        "semi": false
       }
-    ]
+    ],
+    "camelcase": "off",
+    "no-useless-constructor": "off",
   }
 }
