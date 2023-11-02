@@ -4,7 +4,7 @@ GynPass style app.
 
 ## RFs (Requisitos funcionais)
 
-- [ ] Deve ser possível se cadastrar;
+- [x] Deve ser possível se cadastrar;
 - [ ] Deve ser possível se autenticar;
 - [ ] Deve ser possível obter o perfil de um usuário logado;
 - [ ] Deve ser possível obter o número de check-ins realizados pelo usuários logado;
@@ -17,7 +17,7 @@ GynPass style app.
 
 ## RNs (Regras de negócio)
 
-- [ ] O usuário não deve se cadastrar com um e-mail duplicado;
+- [x] O usuário não deve se cadastrar com um e-mail duplicado;
 - [ ] O usuário não pode fazer dois check-ins no mesmo dia;
 - [ ] O usuário não pode fazer check-in se não estiver perto (100m) de uma academia;
 - [ ] O check-in só pode ser validado até 20min após criado;
@@ -26,7 +26,7 @@ GynPass style app.
 
 ## RNFs (Requisitos não-funcionais)
 
-- [ ] A senha do usuário precisar estar criptografada;
-- [ ] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
+- [x] A senha do usuário precisar estar criptografada;
+- [x] Os dados da aplicação precisam estar persistidos em um banco PostgreSQL;
 - [ ] Todas as listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
